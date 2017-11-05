@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.wortyhgame.korhank.fikalandv01.feature.MainActivity"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+    android:id="@+id/mainMenu"
+    >
 
     <TextView
         android:id="@+id/playerName"
@@ -162,14 +164,14 @@
         app:layout_constraintVertical_bias="0.63" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/otherButton"
         android:layout_width="123dp"
         android:layout_height="46dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="Other"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.771"
@@ -222,7 +224,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.677"
         app:layout_constraintStart_toEndOf="@+id/eatButton"
-        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/otherButton"
         app:layout_constraintVertical_bias="0.666" />
 
 
